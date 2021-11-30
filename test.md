@@ -30,11 +30,13 @@ curl -LsO git.io/bench.sh; chmod +x bench.sh && ./bench.sh -a share
 ```
 
 iperf3测试：
+
 server:
 ```
 iperf3 -s -p 8010 -i 1
 ```
 client:
+
 ```
 iperf3 -c ip -p 8010 -i 1 -t 10
 ```
