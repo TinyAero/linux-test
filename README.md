@@ -1,4 +1,4 @@
 # linux-sh
-linux sh
+linux
 
 **记录**
